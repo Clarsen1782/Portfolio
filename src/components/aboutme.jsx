@@ -7,7 +7,7 @@ function AboutMe() {
   const LinkedIn = "https://www.linkedin.com/in/clarsen1782/";
   const GitHub = "https://github.com/Clarsen1782";
   const Email = "mailto:clarsen31782@gmail.com";
-  const Resume = "https://docs.google.com/document/d/1NWsT0Gh7Tcckcdnea1Za0sWWXWo1uR8O81CUKk5oNlw/edit?usp=sharing";
+  const Resume = "https://docs.google.com/document/d/1_X6BQ-ba0X_MLk7W7rPr9cPu3j4hrtCo7H4LKMZffcc/edit?usp=sharing";
 
   const cardStyle = {
     maxWidth: '2000px',
