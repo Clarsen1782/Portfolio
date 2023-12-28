@@ -33,3 +33,14 @@
 .link {
     width: 10px;
 }
+
+#title {
+    text-align: center;
+    font-size: x-large;
+}
+
+#links {
+    text-align: center;
+    font-size: x-large;
+    padding-right: 10px;
+}

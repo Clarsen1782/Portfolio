@@ -1,4 +1,4 @@
-import Button from 'react-bootstrap/Button';
+
 import Card from 'react-bootstrap/Card';
 import Nav from 'react-bootstrap/Nav';
 import HBackground from '../assets/images/Background.png'
@@ -21,31 +21,32 @@ function Header() {
     };
 
     const imageStyle = {
-        width: '100px', 
-        height: 'auto', 
+        width: '100px',
+        height: 'auto',
         padding: '15px'
-      };
+    };
 
     return (
         <Card className="text-center back2" style={Background}>
             <Card.Body>
                 <Card.Title id='heading'>Christina Larsen</Card.Title>
                 <br></br>
-                <a href={LinkedIn} target="_blank" rel="noreferrer"><img src={Lin} title="LinkedIn Profile" style={imageStyle}/></a>
-                <a href={GitHub} target="_blank" rel="noreferrer"><img src={Git} title="GitHub Profile" style={imageStyle}/></a>
-                <a href={Email} target="_blank" rel="noreferrer"><img src={Ema} title="Email" style={imageStyle}/></a>
-                <a href={Resume} target="_blank" rel="noreferrer"><img src={Res} title="Downloadable Resume" style={imageStyle}/></a>
+                <a href={LinkedIn} target="_blank" rel="noopener noreferrer"><img src={Lin} title="LinkedIn Profile" style={imageStyle} /></a>
+                <a href={GitHub} target="_blank" rel="noopener noreferrer"><img src={Git} title="GitHub Profile" style={imageStyle} /></a>
+                <a href={Email} target="_blank" rel="noopener noreferrer"><img src={Ema} title="Email" style={imageStyle} /></a>
+                <a href={Resume} target="_blank" rel="noopener noreferrer"><img src={Res} title="Downloadable Resume" style={imageStyle} /></a>
             </Card.Body>
             <Card.Footer>
-                <Nav className="justify-content-center" activeKey="/home">
+                <Nav className="justify-content-center" activeKey="/">
                     <Nav.Item>
-                        <Nav.Link href="/" style={{ color: 'white' }}>About Me</Nav.Link>
+                        <Nav.Link href="/" active>About Me</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link href="/Projects" style={{ color: 'white' }}>Projects</Nav.Link>
+                        <Nav.Link href="/Projects">Projects</Nav.Link>
                     </Nav.Item>
                 </Nav>
             </Card.Footer>
+
         </Card>
     );
 }
