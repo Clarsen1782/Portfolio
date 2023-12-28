@@ -1,19 +1,19 @@
 
 import Card from 'react-bootstrap/Card';
-import HBackground from '../assets/images/Hbackground.png'
+import HBackground from '../assets/images/Background.png'
 import '../styles/style.css'
 
 function Footer() {
     const MIT = "https://opensource.org/licenses/MIT"
 
-    /*const Background = {
+    const Background = {
         backgroundImage: `url(${HBackground})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-    };*/
+    };
 
     return (
-        <Card className="text-center foot">
+        <Card className="text-center foot" style={Background}>
             <Card.Body style={{ color: 'white' }}>
                 <Card.Title><h2>&copy;2023 Christina Larsen All rights reserved.</h2></Card.Title>
                 <br />
