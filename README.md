@@ -24,7 +24,7 @@ While this portfolio represents just the beginning of my learning, it serves as 
 
 Thank you for exploring my portfolio, and I look forward to sharing more of my coding adventures with you in the future!
 
-<img src="./src/assets/images/ScreenshotProjects.png" alt="Christina Larsen's Portfolio, Projects Page" width="400"/>
+<img src="./src/assets/images/ScreenshotMain.png" alt="Christina Larsen's Portfolio, Projects Page" width="400"/>
 
 
 
