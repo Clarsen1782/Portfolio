@@ -1,4 +1,4 @@
-import React from 'react';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
 import Card from "react-bootstrap/Card";
@@ -16,6 +16,11 @@ function Blog() {
       title: "Fake Code also known as Pseudocode",
       date: '2023-11-15',
       link: "https://medium.com/@clarsen1782/fake-code-also-known-as-pseudocode-d473872c6174",
+    },
+    {
+      title: "The Fun of Impostor Syndrome",
+      date: '2024-1-6',
+      link: "https://medium.com/@clarsen1782/the-fun-of-impostor-syndrome-64dc19a56761",
     },
   ];
 
