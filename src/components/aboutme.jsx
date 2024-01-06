@@ -30,9 +30,9 @@ function AboutMe() {
             <div className="card-body">
               <h5 className="card-title" id='title'>Welcome to my portfolio!</h5>
               <br />
-              <p>Hello, I am Christina Larsen, a dedicated professional with a rich background in sustainability and healthcare. The pandemic-induced shift to remote work sparked a newfound passion for web development within me. Now embarking on a new career path, I bring to the table a robust work ethic, strong ethical values, and an unwavering attention to detail.</p>
+              <p>Hello, I am Christina Larsen, a dedicated professional with a rich background in customer service, sustainability, and healthcare. The pandemic-induced shift to remote work sparked a newfound passion for web development. Now embarking on a new career path, I bring to the table a robust work ethic, strong ethical values, and an unwavering attention to detail.</p>
 
-              <p>Considered a perpetual learner, I am committed to expanding my knowledge continually. My background in sustainability and healthcare not only adds a unique perspective to my journey in web development but also instills in me a deep sense of responsibility toward creating solutions that positively impact both users and the environment.</p>
+              <p>Considered a perpetual learner, I am committed to expanding my knowledge continually. My background in customer service, sustainability, and healthcare not only adds a unique perspective to my journey in web development but also instills in me a deep sense of responsibility toward creating solutions that positively impact both users and the environment.</p>
 
               <p>As a results-driven, detail-oriented, full-stack programmer, I possess a solid academic foundation complemented by hands-on experience in healthcare and sustainability. Proficient in various facets of development, I excel in:</p>
               <ul>

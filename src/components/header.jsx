@@ -39,10 +39,13 @@ function Header() {
             <Card.Footer>
                 <Nav className="justify-content-center" activeKey="/">
                     <Nav.Item>
-                        <Nav.Link href="/" active>About Me</Nav.Link>
+                        <Nav.Link href="/" active style={{ color: '#8FBC8F' }}>About Me</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link href="/Projects">Projects</Nav.Link>
+                        <Nav.Link href="/Projects" style={{ color: '#8FBC8F' }}>Projects</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link href="/Blog" style={{ color: '#8FBC8F' }}>Blog</Nav.Link>
                     </Nav.Item>
                 </Nav>
             </Card.Footer>

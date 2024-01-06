@@ -54,12 +54,12 @@ function Portfolio() {
       <div className="row">
         {data.map((project, index) => (
           <div key={index} className="col-md-4 mb-4">
-            <Card>
+            <Card style={{ backgroundColor: '#6a5acd' }}>
               <Card.Img variant="top" src={project.image} alt={project.title} />
               <Card.Body id='text'>
-                <Card.Title>{project.title}</Card.Title>
-                <Button variant="primary" href={project.link} target="_blank" rel="noopener noreferrer">View Project</Button>
-                <Button variant="secondary" className="ml-2" href={project.github} target="_blank" rel="noopener noreferrer"> View GitHub</Button>
+                <Card.Title style={{ color: 'White' }}>{project.title}</Card.Title>
+                <Button variant="info" href={project.link} target="_blank" rel="noopener noreferrer">View Project</Button>
+                <Button variant="success" className="ml-2" href={project.github} target="_blank" rel="noopener noreferrer"> View GitHub</Button>
               </Card.Body>
             </Card>
           </div>
